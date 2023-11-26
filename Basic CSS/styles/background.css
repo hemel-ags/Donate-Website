@@ -1,0 +1,39 @@
+.header{
+    height: 600px;
+    /* background-image: url('inchplant.jpg'); */
+
+    background-image: url(../image/ft-babystearsplant.jpg);
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-blend-mode: multiply;
+   background-color: cyan;
+   
+    
+    
+}
+
+h1{
+    padding: 30px;
+    color: yellow;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+    
+}
+
+h3{
+    
+    text-decoration: overline wavy;
+}
+
+
+
+input[type="text"]{
+    border: 2px solid purple;
+    border-radius: 5px;    
+}
+
+input{
+    display: block;
+    margin-bottom: 2px;
+}

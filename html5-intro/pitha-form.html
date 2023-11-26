@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circus Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        fieldset{
+            margin-bottom: 10px;
+        }
+
+        legend{
+            color: brown;
+        }
+    </style>
+    <link rel="stylesheet" href="Styles/nav.css">
+</head>
+
+<header> 
+    <nav>
+        <ul>
+            <li><a href="pitha-form.html">Form</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="table-col-row-span.html">Table Ex</a></li>
+            <li><a href="audio-video.html">Media</a></li>
+        </ul>
+    </nav>
+
+</header>
+<body >
+    <h1>Circus Party Registration</h1>
+    <form>
+        <label for="name">What's your name?
+            <input id="name" type="text" placeholder="Only akika name please">
+        </label>
+        
+        <label for="email">What's your email?
+            <input id="email" type="email" placeholder="Email please">
+        </label>
+       
+        <fieldset>
+            <legend style="font-weight: bold;">Pick Your Roll</legend>
+            <label for="Jocker">
+                <input type="radio" name="Roll" id="Jocker">
+                Jocker
+            </label>
+            <label for="Dorshok">
+                <input type="radio" name="Roll" id="Dorshok">
+                Dorshok
+            </label>
+            <label for="Gunman">
+                <input type="radio" name="Roll" id="Gunman">
+                Gun Man
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select Your Jalwa</legend>
+            <label for="hearing">
+                <input type="checkbox" name="jalwa" id="hearing">
+                Unlimited Hearing
+            </label>
+            <label for="patience">
+                <input type="checkbox" name="jalwa" id="patience">
+                Patience
+            </label>
+            <label for="bekar">
+                <input type="checkbox" name="jalwa" id="bekar">
+                Infinity Time
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Any other Specialty?</legend>
+            <textarea name="" id="" cols="60" rows="3" placeholder="Write down briefly"></textarea>
+        </fieldset>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Count me in!" style="background-color: yellow;">
+    </form>
+</body>
+</html>

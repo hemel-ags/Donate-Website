@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Practice</title>
+    <style>
+        td, th{
+            border: 2px solid lightgray;
+            padding: 10px;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+        td{
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="Styles/nav.css">
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul>
+                <li>
+                    <a href="pitha-form.html">Form</a>
+                    <ul class="dropdown">
+                        <li><a href="pitha-form.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="table-col-row-span.html">Table Ex</a></li>
+                        <li><a href="audio-video.html">Media</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="pitha-form.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li class="nested">
+                            <a href="table-col-row-span.html">Table Ex</a>
+                            <ul class="dropdown">
+                                <li><a href="pitha-form.html">Form</a></li>
+                                <li><a href="table.html">Table</a></li>
+                                <li><a href="table-col-row-span.html">Table Ex</a></li>
+                                <li><a href="audio-video.html">Media</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="audio-video.html">Media</a></li>
+                    </ul>
+                </li>
+                <li><a href="table-col-row-span.html">Table Ex</a></li>
+                <li><a href="audio-video.html">Media</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th>Sl.</th>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Liyaquat</td>
+                <td>Principal</td>
+                <td>30000$</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Adnan</td>
+                <td>Civil</td>
+                <td>18500$</td>
+            </tr>   
+            <tr>        
+                <td>3</td>
+                <td>Shohel</td>
+                <td>Computer</td>
+                <td>15000$</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Rasel</td>
+                <td>Mechanical</td>
+                <td>12000$</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

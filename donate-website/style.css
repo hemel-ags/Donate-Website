@@ -177,7 +177,7 @@ input[type="submit"] {
   color: white;
   font-size: x-small;
   border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px; 
 }
 
 input[type="email"] {
